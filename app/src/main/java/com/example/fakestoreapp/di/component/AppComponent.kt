@@ -4,6 +4,8 @@ import android.content.Context
 import com.example.fakestoreapp.MainActivity
 import com.example.fakestoreapp.MyApplication
 import com.example.fakestoreapp.di.module.AppModule
+import com.example.fakestoreapp.di.module.DataModule
+import com.example.fakestoreapp.di.module.RemoteModule
 import dagger.BindsInstance
 import dagger.Component
 import javax.inject.Singleton
@@ -11,7 +13,9 @@ import javax.inject.Singleton
 @Singleton
 @Component(
     modules = [
-        AppModule::class
+        AppModule::class,
+        RemoteModule::class,
+        DataModule::class
     ]
 )
 interface AppComponent {

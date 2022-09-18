@@ -1,6 +1,7 @@
 package com.example.fakestoreapp.di.component
 
 import android.content.Context
+import com.example.fakestoreapp.MainActivity
 import com.example.fakestoreapp.MyApplication
 import com.example.fakestoreapp.di.module.AppModule
 import dagger.BindsInstance
@@ -16,6 +17,8 @@ import javax.inject.Singleton
 interface AppComponent {
 
     fun inject(app: MyApplication)
+
+    fun inject(activity: MainActivity)
 
     @Component.Factory
     interface Factory {

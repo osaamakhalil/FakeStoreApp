@@ -1,5 +1,6 @@
 package com.example.fakestoreapp.di.module
 
+import com.example.fakestoreapp.Constant.BASE_URL
 import dagger.Module
 import dagger.Provides
 import okhttp3.OkHttpClient
@@ -32,6 +33,7 @@ class AppModule {
             .client(okHttpClient)
             .addConverterFactory(GsonConverterFactory.create())
             .addCallAdapterFactory(RxJava3CallAdapterFactory.create())
+            .baseUrl(BASE_URL)
             .build()
     }
     //TODO Add base URL

@@ -6,6 +6,5 @@ import retrofit2.http.GET
 
 interface ProductService {
     @GET("products")
-    fun getProduct() : Single<ProductRemote>
-
+    fun getProduct(): Single<List<ProductRemote>>
 }

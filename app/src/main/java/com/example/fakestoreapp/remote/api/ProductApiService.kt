@@ -4,7 +4,7 @@ import com.example.fakestoreapp.remote.model.ProductRemote
 import io.reactivex.rxjava3.core.Single
 import retrofit2.http.GET
 
-interface ProductService {
+interface ProductApiService {
     @GET("products")
-    fun getProduct(): Single<List<ProductRemote>>
+    fun getProducts(): Single<List<ProductRemote>>
 }

@@ -36,5 +36,4 @@ class AppModule {
             .baseUrl(BASE_URL)
             .build()
     }
-    //TODO Add base URL
 }

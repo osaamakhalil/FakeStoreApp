@@ -28,9 +28,9 @@
 # App Feature
 
 - See a list of products
-- See more product when scrolls to the end
+- See more products when scrolls to the end
 - You can see product details 
-- Navigate between product 
+- Navigate between products 
 
 
 # MVVM Architecture 

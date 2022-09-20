@@ -4,6 +4,8 @@ import com.google.gson.annotations.SerializedName
 
 
 data class ProductRemote(
+    @SerializedName("id")
+    val id: Int?,
     @SerializedName("title")
     val title: String?,
     @SerializedName("price")

@@ -34,5 +34,6 @@
 
 
 # MVVM Architecture 
+-I am using MVVM for Presentation layer 
 ![final-architecture](https://user-images.githubusercontent.com/59806410/138581065-768be895-2348-475e-9abe-54a75ec4cf23.png)
 

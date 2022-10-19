@@ -1,6 +1,6 @@
 # FakeStoreApp
 
- FakeStoreApp app Listing engine sample app that implement MVVM using clean architecture 
+ FakeStoreApp app Listing sample app that implement MVVM using clean architecture 
  android architecture component RxJava, dagger2, unit test and errors handling.
  
  
